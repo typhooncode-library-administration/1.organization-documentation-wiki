@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T18:52:05.303Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="TX2x_HX8GiGuxNFUSC-Y" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T20:41:58.899Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="54PLYPveuMJ54EDMWWz-" version="24.5.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2276" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-2" value="Standort" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="-50" width="240" height="300" as="geometry" />
+          <mxGeometry x="-345" y="-300" width="240" height="300" as="geometry" />
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
           <mxGeometry y="30" width="240" height="30" as="geometry" />
@@ -212,7 +212,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-23" value="Bestand" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="-340" y="-310" width="249" height="180" as="geometry">
+          <mxGeometry x="-349.5" y="100" width="249" height="180" as="geometry">
             <mxRectangle x="-240" y="80" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -401,10 +401,13 @@
             <mxRectangle width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OgFdFAPkShTu0YIg3M7B-4" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0.482;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="OgFdFAPkShTu0YIg3M7B-10" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;elbow=vertical;exitX=0.558;exitY=0.967;exitDx=0;exitDy=0;entryX=0.556;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-210" y="-50" as="sourcePoint" />
-            <mxPoint x="-209.98199999999997" y="-130" as="targetPoint" />
+            <mxPoint x="-215.07999999999993" y="-0.9900000000000091" as="sourcePoint" />
+            <mxPoint x="-215.05600000000004" y="98.92000000000007" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-224" y="40" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
