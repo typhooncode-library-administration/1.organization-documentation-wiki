@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-15T10:10:51.882Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="oJ2xSnG_9JFZQ8LdZ_Zb" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-15T10:12:46.528Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="BWDARZ4Wfngs8vD6O0qC" version="24.5.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2528" dy="2001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="3702" dy="2632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1605,7 +1605,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ugB5VaF18n5DZ9BN0qpM-1" value="Gebühren" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="-1080" width="280" height="210" as="geometry" />
+          <mxGeometry x="390" y="120" width="280" height="210" as="geometry" />
         </mxCell>
         <mxCell id="ugB5VaF18n5DZ9BN0qpM-2" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="ugB5VaF18n5DZ9BN0qpM-1">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
@@ -1863,7 +1863,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ugB5VaF18n5DZ9BN0qpM-51" value="Rückgabe" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="-990" width="280" height="210" as="geometry" />
+          <mxGeometry x="-10" y="100" width="280" height="210" as="geometry" />
         </mxCell>
         <mxCell id="ugB5VaF18n5DZ9BN0qpM-52" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="ugB5VaF18n5DZ9BN0qpM-51">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
