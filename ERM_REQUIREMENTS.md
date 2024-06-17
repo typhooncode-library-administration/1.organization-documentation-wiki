@@ -21,3 +21,10 @@ The following are the key requirements that describe the relationships and rules
 - **area_code**: varchar(5)
 - **phone_number**: varchar(20)
 - **email_address**: varchar(100) (Unique)
+
+#### 2.Library_card
+- **library_card_id** int (Primary Key)
+- **fk_customer**: int (Foreign Key)
+- **fk_extended_location**: int (Foreign Key) 
+- **valid**: boolean
+- **expiration_date**: date
