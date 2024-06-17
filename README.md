@@ -13,7 +13,7 @@ The frontend handles the user interface and user experience. It is built using m
 The backend manages the application logic, APIs, and server-side processing. It handles requests from the frontend, performs necessary computations, and interacts with the datalayer to fetch or update data.
 
 ## Software Requirements
-The key requirements and expectations for the library management software system are documented in the [Requirements Document](SOFTWARE_REQUIREMENTS.md).
+The key requirements and expectations for the library management software system are documented in the [Software Requirements Document](SOFTWARE_REQUIREMENTS.md).
 
 ### Entity-Relationship Model Requirements
 The key requirements that describe the relationships and rules in the ERM are documented in the [ERM Requirements Document](ERM_REQUIREMENTS.md).
