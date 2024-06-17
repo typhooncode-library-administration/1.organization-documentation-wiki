@@ -9,7 +9,7 @@ The following are the key requirements that describe the relationships and rules
 
 ### Tables and Relathionships
 
-#### 1. Customer
+#### 1.Customer
 - **customer_id**: int (Primary Key)
 - **first_name**: varchar(25)
 - **last_name**: varchar(35)
@@ -23,8 +23,18 @@ The following are the key requirements that describe the relationships and rules
 - **email_address**: varchar(100) (Unique)
 
 #### 2.Library_card
-- **library_card_id** int (Primary Key)
+- **library_card_id**: int (Primary Key)
 - **fk_customer**: int (Foreign Key)
 - **fk_extended_location**: int (Foreign Key) 
 - **valid**: boolean
 - **expiration_date**: date
+
+#### 3.Events
+- **event_id**: int (Primary Key)
+- **fk_location**: int (Foreign Key)
+- **title**: varchar(100) NOT NULL
+- **descriptio**: text NOT NULL
+- **datetime_begin**: date
+- **datetime_end**: int (Primary Key)
+- **number_max_participants** smallint NOT NULL
+- **number_subscribed_participants** smallint
