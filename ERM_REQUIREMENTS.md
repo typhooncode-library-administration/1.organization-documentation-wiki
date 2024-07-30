@@ -6,8 +6,76 @@ The following are the key requirements that describe the relationships and rules
 
 ![Database Structure](ERM_Bibliotheksverwaltung.drawio.png)
 
+## Entities
 
-### Tables and Relathionships
+#### Customer
+- **Description**: Represents a library customer who borrows media and participates in events.
+- **Attributes**:
+  - `Customer_ID`: Unique identifier of the customer.
+  - `Name`: Name of the customer.
+  - `Location_ID`: Reference to the customer's location.
+
+#### Location
+- **Description**: Represents a physical location with address information for customers and libraries.
+- **Attributes**:
+  - `Location_ID`: Unique identifier of the location.
+  - `Street`: Street name and number.
+  - `City`: City name.
+  - `Postal_Code`: Postal code.
+  - `Country`: Country name.
+
+#### Library
+- **Description**: Represents a library that offers various media and organizes events.
+- **Attributes**:
+  - `Library_ID`: Unique identifier of the library.
+  - `Library_Name`: Name of the library.
+  - `Location_ID`: Reference to the library's location.
+
+#### Loan
+- **Description**: Represents a loan containing media items borrowed by a customer.
+- **Attributes**:
+  - `Loan_ID`: Unique identifier of the loan.
+  - `Customer_ID`: Reference to the customer making the loan.
+
+#### Medium
+- **Description**: Represents a medium (e.g., book, DVD) that can be borrowed from the library.
+- **Attributes**:
+  - `Medium_ID`: Unique identifier of the medium.
+  - `Title`: Title of the medium.
+  - `MediaType_ID`: Reference to the media type.
+  - `Inventory_ID`: Reference to the inventory of the medium.
+
+#### Inventory
+- **Description**: Represents the inventory unit of a medium in the library.
+- **Attributes**:
+  - `Inventory_ID`: Unique identifier of the inventory.
+  - `Medium_ID`: Reference to the medium.
+
+#### Fee
+- **Description**: Represents fees that a customer must pay for various services.
+- **Attributes**:
+  - `Fee_ID`: Unique identifier of the fee.
+  - `Customer_ID`: Reference to the customer who pays the fee.
+  - `Amount`: Amount of the fee.
+  - `FeeType_ID`: Reference to the fee type.
+
+#### Payment
+- **Description**: Represents a payment that settles a fee.
+- **Attributes**:
+  - `Payment_ID`: Unique identifier of the payment.
+  - `Fee_ID`: Reference to the fee.
+  - `Amount`: Amount of the payment.
+
+
+
+
+
+
+
+
+
+
+### Tables and Relationships
 
 #### 1.Customer
 - **customer_id**: int (Primary Key)
