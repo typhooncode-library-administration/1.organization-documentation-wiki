@@ -1,4 +1,4 @@
-# Central Documentation for Library Software Architecture
+# Central Documentation of the Library Management System
 
 ## Overview
 This repository acts as the central documentation point for all architectural and structural aspects of the library management software system. 
