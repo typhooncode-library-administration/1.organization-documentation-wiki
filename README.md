@@ -3,25 +3,14 @@
 ## Overview
 This repository acts as the central documentation point for all architectural and structural aspects of the library management software system. 
 
+The Library Management System v1.0.0 is designed to streamline and simplify the management and administrative processes of libraries. By consolidating all library operations into a single, centralized system, the platform aims to reduce bureaucracy and administrative overhead. One key feature is the introduction of a unified library card system, enabling members to access all libraries managed by this software with just one card, regardless of the location. This approach not only simplifies user access but also significantly reduces operational costs by minimizing the need for redundant systems and processes.
+
+As the system evolves, new features will be iteratively developed and integrated, continually enhancing the efficiency and capabilities of the platform.
+
 
 ## For Further Information
 
 For more detailed documentation and information, please visit our [Wiki](https://github.com/typhooncode-library-administration/1.organization-documentation-wiki/wiki).
-
-### Datalayer
-The datalayer is responsible for managing data storage, retrieval, and database interactions. It includes the database schema, ORM configuration, and data access logic.
-
-### Frontend
-The frontend handles the user interface and user experience. It is built using modern web technologies to provide a responsive and intuitive interface for users to interact with the library system.
-
-### Backend
-The backend manages the application logic, APIs, and server-side processing. It handles requests from the frontend, performs necessary computations, and interacts with the datalayer to fetch or update data.
-
-## Software Requirements
-The key requirements and expectations for the library management software system are documented in the [Software Requirements Document](SOFTWARE_REQUIREMENTS.md).
-
-### Entity-Relationship Model Requirements
-The key requirements that describe the relationships and rules in the ERM are documented in the [ERM Requirements Document](ERM_REQUIREMENTS.md).
 
 ## Getting Started
 To get started with the library software system, please follow the instructions in the [Getting Started Guide](GETTING_STARTED.md).
