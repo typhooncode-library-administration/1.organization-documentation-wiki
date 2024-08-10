@@ -3,6 +3,11 @@
 ## Overview
 This repository acts as the central documentation point for all architectural and structural aspects of the library management software system. 
 
+
+## For Further Information
+
+For more detailed documentation and information, please visit our [Wiki](https://github.com/typhooncode-library-administration/1.organization-documentation-wiki/wiki).
+
 ### Datalayer
 The datalayer is responsible for managing data storage, retrieval, and database interactions. It includes the database schema, ORM configuration, and data access logic.
 
