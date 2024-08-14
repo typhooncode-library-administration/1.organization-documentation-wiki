@@ -847,7 +847,7 @@
             <mxRectangle width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kEv1q6mkTN8vbzehKZTw-283" value="varchar(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;" parent="kEv1q6mkTN8vbzehKZTw-280" vertex="1">
+        <mxCell id="kEv1q6mkTN8vbzehKZTw-283" value="varchar(50) NOT NULL UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;whiteSpace=wrap;" parent="kEv1q6mkTN8vbzehKZTw-280" vertex="1">
           <mxGeometry x="120" width="150.00000000000023" height="30" as="geometry">
             <mxRectangle width="150.00000000000023" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1015,7 +1015,7 @@
             <mxRectangle width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="57pV_bZRuxo9Tud888wK-91" value="varchar(255) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;" parent="57pV_bZRuxo9Tud888wK-88" vertex="1">
+        <mxCell id="57pV_bZRuxo9Tud888wK-91" value="varchar(255) NOT NULL UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;whiteSpace=wrap;" parent="57pV_bZRuxo9Tud888wK-88" vertex="1">
           <mxGeometry x="130" width="140" height="30" as="geometry">
             <mxRectangle width="140" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2384,7 +2384,7 @@
             <mxRectangle width="163.5" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mzd_1ZOmgdv2-yMHckrv-104" value="media_types" style="shape=table;startSize=20;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="Mzd_1ZOmgdv2-yMHckrv-104" value="media_types" style="shape=table;startSize=20;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1700" y="-280" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Mzd_1ZOmgdv2-yMHckrv-105" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="Mzd_1ZOmgdv2-yMHckrv-104" vertex="1">
@@ -2418,7 +2418,7 @@
             <mxRectangle width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mzd_1ZOmgdv2-yMHckrv-112" value="varchar(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="Mzd_1ZOmgdv2-yMHckrv-109" vertex="1">
+        <mxCell id="Mzd_1ZOmgdv2-yMHckrv-112" value="varchar(50) NOT NULL UNIQUE" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;whiteSpace=wrap;" parent="Mzd_1ZOmgdv2-yMHckrv-109" vertex="1">
           <mxGeometry x="170" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
